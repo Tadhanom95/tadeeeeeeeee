@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tadesse Adhanom</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="css/portal.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Tadesse Adhanom</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://yearuptemp-my.sharepoint.com/:w:/g/personal/tadhanaom_sea_yearup_org/EbbFb2iDch5IjEC00dQy8YYB4V50JXPlp3SuOx-V-41yUA?e=hWXCT2" target="">My Resume</a>
+            <a href="https://www.linkedin.com/in/tadesse-adhanom/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Tadhanom95" target="_blank">GitHub</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+
+    </header>
+    <main class="wrapper">
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+            <source media="(min-width: 501px)" srcset="images/tablet.jpg">
+            <img src="images/phone.jpg" alt="That's me!" />
+        </picture>
+        <h2 class="subheader">About Me </h2>
+
+        <p> Hello, my name is Tadesse Adhanom. I am A driven professional with a strong knowledge in software development. 
+            Ability to adapt and learn in fast pace of environment. Currently I am interning at Expeditors as a Developer in Test 
+            where I am expanding my skill set on automation with API and UI testing . 
+
+            Before joining the Year-Up program I worked at the Facebook company as a security officer for almost 2 years even though 
+            I had an interest in programming. I am so grateful to be able to start my journey as a software developer. I am eager to make 
+            connections within the field of technology.
+
+        </p>
+
+        <p>fun fact about me, I am a big fan of the <a href="https://www.manutd.com/">Manchester United FC</a> sports team, which is located in Europe.
+            My dream has always wanted to go to their stadium called <a href="https://www.expedia.com/Old-Trafford-Manchester.d501661.Vacation-Attraction">Old Trafford</a>, but I have not got a chance yet.</p>
+            
+            <h2> Practicing Public speaking</h2> 
+            
+            <img height ="300" width =" 300" src="images/Tade.jpeg" />
+        
+       
+
+        <footer>
+            <p><small>&copy; 2021 by
+                    Tadesse Adhanom, All Rights Reserved ~
+                    <a id="html-checker" href="#">Check HTML</a> ~
+                    <a id="css-checker" href="#">Check CSS</a></small>
+            </p>
+        </footer>
+    </main>
+
+    <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <script>
+        //https://tinyurl.com/dynamic-html-checker
+        document.getElementById("html-checker").setAttribute("href", "https://validator.w3.org/nu/?doc=" + location.href);
+
+        document.getElementById("css-checker").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+
+        //manages mobile nav 
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }   
+    </script>
+
+</body>
+
+</html>
